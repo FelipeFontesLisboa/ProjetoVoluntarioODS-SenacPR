@@ -2,26 +2,20 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  body{
     background-color: #F9F9F9;
-    
     -webkit-font-smoothing: antialiased;
     display: grid;
     grid-template-columns:1fr 120px  minmax(300px, 800px) 1fr; 
  }
 
- .azul {
-    background-color: teal;
- }
- .vermelho {
-    background-color: #e54;   
- }
-html.textomaior{
-    font-size: 150%;
+
+html{
+    font-size: 100%;
 }
 /* ---------------------------------- */
-
 
 img {
     display: block; 
@@ -55,7 +49,7 @@ img {
     box-sizing: border-box;
     padding: 10px;
     display: grid;
-    grid-template-columns: 100px 300px 1fr;
+    grid-template-columns: 150px 370px 1fr;
     grid-gap:20px;
     margin-bottom: 6rem;
 }
@@ -67,7 +61,6 @@ img {
     margin-bottom: 3rem;
     grid-column: 1/4; 
 }
-
 
 .animais h2 {
     font-family: monospace;
@@ -91,12 +84,12 @@ background-color: #fB5;
     margin-bottom: 1rem;
 }
 .animais-lista {
-    height: 370px;
+    height: 300px;
     overflow-y: scroll;
     grid-column: 2;
 }
 .animais-lista::-webkit-scrollbar{ 
-    width: 18px;
+    width: 25px;
 }
 .animais-lista::-webkit-scrollbar-thumb { 
    border-left: 4px solid #faf6ed ;
@@ -104,8 +97,8 @@ background-color: #fB5;
   border-radius: 8px;
 }
 
-.animais-lista::-webkit-scrollbar-track { /
-   background: #faf6ed;
+.animais-lista::-webkit-scrollbar-track { 
+   background:#e9e8e8;
 
 }
 .animais-descricao section {
@@ -138,6 +131,33 @@ background: #fB5;
     margin-bottom: .5rem;
     margin-left: 30px;
 }
+
+.bn3 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 1em 0.1em 0.1em 0;
+    border: 0.12em solid rgb(126, 126, 126);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #727272;
+    text-shadow: 0 0.09em 0.09em rgba(0, 0, 0, 0.13);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: rgb(68, 68, 68);
+    background-color: rgb(228, 225, 225);
+  }
+  .sinops-animais {
+    padding: 0 0 0 20px;
+
+  }
+
+
 .mapa{
     grid-column: 3 / 2;
 }
@@ -203,7 +223,7 @@ background: #fB5;
 @keyframes show {
    from { 
     opacity: 0;
-    transform: translate3d(-40px, 0px, 0px); /* move o conteudo em 3 eixos x y z   o Y COMEÇO fica em -30px*/  
+    transform: translate3d(-40px, 0px, 0px);  
    }
 
   to  { 
@@ -218,10 +238,10 @@ background: #fB5;
 
 /* acortion para faq Tiulo e paragrapho */
 .js-accordion dt.ativo::after{ 
-    content: '⤵';
+    content: ' ⤵';
 }
 .js-accordion dt::after{ 
-    content: '⤴';
+    content: ' ⤴';
 }
 
 .js-accordion dd {
