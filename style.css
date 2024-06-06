@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  body{
-    background-color: #F9F9F9;
+    background-color:#ffffff ;
     -webkit-font-smoothing: antialiased;
     display: grid;
     grid-template-columns:1fr 120px  minmax(300px, 800px) 1fr; 
@@ -42,7 +42,18 @@ img {
     text-decoration: none;
     font-family: monospace;
     font-weight: bold;
+    padding: 10px;
+   
 }
+
+.menu li:last-of-type{
+    content: "";
+    border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+}
+.menu li:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+  }
+
 .grid-section {
     grid-column: 2 / 4;
     width: 100%;
@@ -150,7 +161,7 @@ background: #fB5;
   
   .bn3:hover {
     color: rgb(68, 68, 68);
-    background-color: rgb(228, 225, 225);
+    background-color:#EBEBEB;
   }
   .sinops-animais {
     padding: 0 0 0 10px;
@@ -163,7 +174,9 @@ background: #fB5;
 }
 .dados{
     grid-column: 3;
-    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(158, 158, 158, 0.603);
+   
 }
 .dados li {
     margin-bottom: 1rem;
