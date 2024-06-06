@@ -153,7 +153,7 @@ background: #fB5;
     background-color: rgb(228, 225, 225);
   }
   .sinops-animais {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
 
   }
 
@@ -163,6 +163,7 @@ background: #fB5;
 }
 .dados{
     grid-column: 3;
+    margin-left: 10px;
 }
 .dados li {
     margin-bottom: 1rem;
@@ -189,7 +190,11 @@ background: #fB5;
 /* ------------------------------- regra media querie---------------------------- */
 @media (max-width:700px) {
     body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
         grid-template-columns: 1fr;
+
     }
     .menu, .grid-section, .copy {
         grid-column: 1;
