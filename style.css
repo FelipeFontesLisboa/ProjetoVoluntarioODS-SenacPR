@@ -12,8 +12,9 @@
  }
 
 
-html{
-    font-size: 100%;
+html.ativo{
+    font-size: 120%;
+   
 }
 /* ---------------------------------- */
 
@@ -100,16 +101,18 @@ background-color: #fB5;
     grid-column: 2;
 }
 .animais-lista::-webkit-scrollbar{ 
-    width: 25px;
+    width: 14px;
+    
 }
 .animais-lista::-webkit-scrollbar-thumb { 
-   border-left: 4px solid #faf6ed ;
-   border-right: 4px solid #faf6ed  ;
+    background-color: #FFBB55;
+    height: 50px;
+    border: 1px solid #ffffff;
   border-radius: 8px;
 }
 
 .animais-lista::-webkit-scrollbar-track { 
-   background:#e9e8e8;
+   background:#eceaea;
 
 }
 .animais-descricao section {
@@ -162,10 +165,6 @@ background: #fB5;
   .bn3:hover {
     color: rgb(68, 68, 68);
     background-color:#EBEBEB;
-  }
-  .sinops-animais {
-    padding: 0 0 0 10px;
-
   }
 
 
@@ -256,10 +255,10 @@ background: #fB5;
 
 /* acortion para faq Tiulo e paragrapho */
 .js-accordion dt.ativo::after{ 
-    content: ' ⤵';
+    content: ' 🠋';
 }
 .js-accordion dt::after{ 
-    content: ' ⤴';
+    content: ' 🠉';
 }
 
 .js-accordion dd {
