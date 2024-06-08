@@ -1,5 +1,4 @@
 
-
 function initTabNav() {
   const tabMenuAnimais = document.querySelectorAll(".js-tabmenu li"); 
   const tabContent = document.querySelectorAll(".js-tabcontent section"); 
@@ -24,7 +23,8 @@ function initTabNav() {
   }
 }
 initTabNav();
-// -----------------------------------------------------------------------------
+
+// Acordion -----------------------------------------------------------------------
 
 function initAccordion() {
   const accordionList = document.querySelectorAll(".js-accordion dt");
@@ -44,7 +44,8 @@ function initAccordion() {
   }
 }
 initAccordion();
-/*------------------------------------------------------------------------*/
+
+//Animação ao scroll  section ------------------------------------------------------
 
 function initAnimationScrrol() {
   const sections = document.querySelectorAll(".js-scroll");
@@ -68,4 +69,26 @@ function initAnimationScrrol() {
 }
 initAnimationScrrol(); 
 
+//scrol suave link internos -----------------------------------------------------
 
+function initScrollSuave() {
+  const linksInternos = document.querySelectorAll('.js-meu a[href^="#"]');
+
+  function scrollToSection(event) {
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute("href");
+    const section = document.querySelectorAll(href);
+
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+  linksInternos.forEach((item) => {
+   
+    item.addEventListener("click", scrollToSection);
+  });
+}
+initScrollSuave();
+
+//-------------------------------------------------------------------------------
