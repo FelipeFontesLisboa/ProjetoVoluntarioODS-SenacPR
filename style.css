@@ -62,7 +62,7 @@ img {
     grid-column: 2 / 4;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 5px 10px 10px;
     display: grid;
     grid-template-columns: 150px 370px 1fr;
     grid-gap:20px;
@@ -108,7 +108,7 @@ background-color: #fB5;
     grid-column: 2;
 }
 .animais-lista::-webkit-scrollbar{ 
-    width: 14px;
+    width: 12px;
     
 }
 .animais-lista::-webkit-scrollbar-thumb { 
@@ -344,10 +344,15 @@ margin: px 0px 10px 50px;
 
 /* acortion para faq Tiulo e paragrapho */
 .js-accordion dt.ativo::after{ 
-    content: ' 🠋';
+    content: ' ↓';
+    font-size: 1.5rem  ;
+    color: rgba(30, 136, 27, 0.486) ;
 }
 .js-accordion dt::after{ 
-    content: ' 🠉';
+    font-size: 1.5rem  ;
+    content: ' ↑';
+    
+    
 }
 
 .js-accordion dd {
