@@ -25,7 +25,15 @@ img {
     max-width: 100%;
     cursor: pointer;
   
-}git init
+}
+.menu {
+    grid-column: 3 / 5 ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fB5;
+}
+.menu ul{
+    display: flex;
     flex-wrap: wrap;
     padding: 10px;
     box-shadow: 1px 1px 4px rgba(160, 160, 160, 0.39);
