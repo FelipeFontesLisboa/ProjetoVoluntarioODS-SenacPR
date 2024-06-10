@@ -65,7 +65,7 @@ img {
     grid-column: 2 / 4;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 5px 10px 10px;
+    padding: 10px 0px 10px 10px;
     display: grid;
     grid-template-columns: 150px 370px 1fr;
     grid-gap:20px;
@@ -111,7 +111,7 @@ background-color: #fB5;
     grid-column: 2;
 }
 .animais-lista::-webkit-scrollbar{ 
-    width: 12px;
+    width: 11px;
     
 }
 .animais-lista::-webkit-scrollbar-thumb { 
@@ -130,6 +130,9 @@ background-color: #fB5;
 }
 .animais-descricao {
     grid-column: 3;
+}
+.sinops-animais{
+    padding-right: 5px;
 }
 .faq-lista {
     grid-column:2 / 4 ;
