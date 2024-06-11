@@ -113,17 +113,17 @@ export  function initModal() {
     initModal()
   
 // Recursos de acessibilidas -------------------------------------------------------
-// export function initAcessibility() {
+export function initAcessibility() {
   
-//   const body = document.querySelector('body')
+  const body = document.querySelector('body')
 
-//  function darkness() {
+ function darkness() {
   
-//   body.classList.add("ativo")
+  body.classList.add("ativo")
 
 
-//  }
+ }
 
-//   body.addEventListener('click', darkness)
-// }
-// initAcessibility()
+  body.addEventListener('click', darkness)
+}
+initAcessibility()
