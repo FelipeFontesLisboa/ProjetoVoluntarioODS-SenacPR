@@ -1,13 +1,15 @@
-import { initAcessibility } from "./src/module.js";
+// import { initAcessibility } from "./src/module.js";
+//import { initMenuHmburguer , showMenuLateral } from "./src/module.js";
 import { initTabNav } from "./src/module.js";
 import { initAccordion } from "./src/module.js";
 import { initAnimationScrrol } from "./src/module.js";
 import { initScrollSuave } from "./src/module.js";
 import { initModal } from "./src/module.js";
 
-initAcessibility()
+// initAcessibility()
+//initMenuHmburguer();
 initTabNav();
 initAccordion();
 initAnimationScrrol();
-initScrollSuave()
-initModal()
+initScrollSuave();
+initModal();

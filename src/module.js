@@ -112,18 +112,56 @@ export  function initModal() {
     
     initModal()
   
+// --------------------------------------------------
+
+
+//  initMenuLateral----------------------------------------
+  //  export  function initMenuHmburguer() {
+  //     const buttonMenuLateral = document.querySelector(".buttonMenu-lateral");
+  //     const menuLateral = document.querySelector(".menu-lateral");
+  //     const buttonRemoveMenu = document.querySelector(".buttonRemoveMenu");
+  //     const primeiraSection = document.querySelector(".animais")
+    
+  //     function showMenuLateral() {
+  //       menuLateral.classList.toggle("ativo");
+  //       buttonRemoveMenu.classList.toggle("ativo");
+  //     }
+
+  //     function showIconMenuLateral() {
+  //       const sectionBottom = primeiraSection.getBoundingClientRect().top;
+  //       const isPastContainer = sectionBottom <= -0;
+
+  //       if (isPastContainer) {
+  //         buttonMenuLateral.classList.add("ativo");
+  //       } else {
+  //         buttonMenuLateral.classList.remove("ativo");
+  //       }
+
+  //     }
+  //     window.addEventListener('scroll', showIconMenuLateral)
+  //     buttonRemoveMenu.addEventListener("click", showMenuLateral);
+  //     buttonMenuLateral.addEventListener("click", showMenuLateral);
+  //   }
+  //   initMenuHmburguer();
+  // // -----------------------------------------
+
+
+
+
+
+
 // Recursos de acessibilidas -------------------------------------------------------
-export function initAcessibility() { 
+// export function initAcessibility() { 
 
-  const body = document.body
-  const accesibilidade = document.querySelector('.accesibilidade');
+//   const body = document.body
+//   const accesibilidade = document.querySelector('.accesibilidade');
 
-  function darkness() {
-    body.classList.toggle('ativo');
-  }
-  accesibilidade.addEventListener('click', darkness)
-}
-  initAcessibility()
+//   function darkness() {
+//     body.classList.toggle('ativo');
+//   }
+//   accesibilidade.addEventListener('click', darkness)
+// }
+//   initAcessibility()
 
 
 // document.addEventListener('DOMContentLoaded', function() {
