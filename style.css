@@ -376,8 +376,8 @@ img {
     justify-content: center;
     width: auto;
     height: auto;
-    margin: 0 20px 0 20px;
-    padding: 10px;
+    margin: 0 15px 0 15px;
+    padding: 8px;
     }
     .infoAlunos li {
       line-height: 0%;
@@ -389,7 +389,8 @@ img {
     font-size: 8px;
   }
   .infoAlunos h2 {
-    font-size: 0.9rem;
+    line-height: 0.9;
+    font-size: 0.8rem;
     margin-bottom: 15px;
     display: flex;
     margin: 0;
