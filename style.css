@@ -37,7 +37,7 @@ img {
     grid-column: 3 / 5 ;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: #fB5;
+    background-color: rgb(253, 191, 99);
 }
 .menu ul{
     display: flex;
@@ -261,7 +261,7 @@ margin: px 0px 10px 50px;
     display: flex;
     grid-column: 3 / 5;
     margin-bottom: 2rem;
-    background: #fB5;
+    background: rgb(253, 191, 99);
     box-shadow: 1px 1px 4px rgba(160, 160, 160, 0.39);
     justify-content: space-between;
     align-items: center;
