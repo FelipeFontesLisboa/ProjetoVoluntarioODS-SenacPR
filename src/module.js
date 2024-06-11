@@ -113,17 +113,26 @@ export  function initModal() {
     initModal()
   
 // Recursos de acessibilidas -------------------------------------------------------
-export function initAcessibility() {
-  
-  const body = document.querySelector('body')
+export function initAcessibility() { 
 
- function darkness() {
-  
-  body.classList.add("ativo")
+  const body = document.body
+  const accesibilidade = document.querySelector('.accesibilidade');
 
-
- }
-
-  body.addEventListener('click', darkness)
+  function darkness() {
+    body.classList.toggle('ativo');
+  }
+  accesibilidade.addEventListener('click', darkness)
 }
-initAcessibility()
+  initAcessibility()
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const body = document.body;
+//   const button = document.getElementById('acessibility-btn');
+
+//   function toggleDarkMode() {
+//     body.classList.toggle('ativo');
+//   }
+
+//   button.addEventListener('click', toggleDarkMode);
+// });
