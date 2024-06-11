@@ -1,3 +1,4 @@
+
 //Navegação por teb
 export  function initTabNav() {
     const tabMenuAnimais = document.querySelectorAll(".js-tabmenu li"); 
@@ -91,10 +92,7 @@ export  function initScrollSuave() {
 
   //---initModal-----------------------------------------------------------------
 
-
 export  function initModal() {
-
-
     const bntColaboradores = document.querySelector('.buttonColaboradores')
     const bntCloseModal = document.querySelector('.closeModal')
     const modal = document.querySelector('.modal')
@@ -114,3 +112,18 @@ export  function initModal() {
     
     initModal()
   
+// Recursos de acessibilidas -------------------------------------------------------
+// export function initAcessibility() {
+  
+//   const body = document.querySelector('body')
+
+//  function darkness() {
+  
+//   body.classList.add("ativo")
+
+
+//  }
+
+//   body.addEventListener('click', darkness)
+// }
+// initAcessibility()

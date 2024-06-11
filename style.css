@@ -9,19 +9,19 @@ html{
 }
 /* html.ativo{
     font-size: 150%;/
-} */
-/* body.ativo{
-    background-color: rgba(2, 2, 2, 0.945);
-     color: #ffffff;
-} */
+    } */
+    body.ativo{
+        background-color: rgb(34, 34, 34);
+        color: #ffffff;
+    }
 body{
     background-color:#ffffff ;
     -webkit-font-smoothing: antialiased;
     display: grid;
     grid-template-columns:1fr 120px  minmax(300px, 800px) 1fr; 
     }
-    
-/* ---------------------------------- */
+
+
 
 img {
     display: block; 
@@ -30,6 +30,9 @@ img {
   
 }
 .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     grid-column: 3 / 5 ;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -49,8 +52,12 @@ img {
     text-decoration: none;
     font-family: monospace;
     font-weight: bold;
-    padding: 10px;
-   
+    padding: 10px; 
+}
+.menu img{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .menu li:last-of-type{
@@ -102,7 +109,7 @@ background-color: #fB5;
 .animais p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
-    font-size:1.1rem ;
+    font-size:1rem ;
     margin-bottom: 0.7rem;
 }
 .animais-lista {
@@ -262,6 +269,8 @@ margin: px 0px 10px 50px;
     padding: 20px;
     font-family: monospace;
     font-weight: bold;
+    font-size: 0.9rem;
+    color: #222;
 }
 /* ------------------------------- regra media querie---------------------------- */
 @media (max-width:700px) {
