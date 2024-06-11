@@ -407,18 +407,19 @@ img {
   display: block !important ;
   animation: show 0.7s forwards;
 
-  /* menu lateral */
-  /* .buttonMenu-lateral{
-            display: none;
-          }
-          .menu-lateral {
-            display: none;
-          }
-          .buttonRemoveMenu{
-            display: none;
-          } */
-  /* ---------------- */
+  }
+  
+ /* menu lateral  */
+/* .buttonMenu-lateral {
+display: none;
 }
+.menu-lateral {
+ display: none;
+}
+.buttonRemoveMenu{
+  display: none;
+}  */
+
 
 /* SHOW */
 @keyframes show {
