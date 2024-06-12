@@ -26,6 +26,7 @@ img {
   display: block;
   max-width: 100%;
   cursor: pointer;
+  user-select: none;
 }
 /* menu lateral ---------------- */
 /* .buttonMenu-lateral {
@@ -208,6 +209,7 @@ img {
   cursor: pointer;
   margin-bottom: 0.5rem;
   color: rgba(238, 85, 68, 0.932);
+  user-select: none;
 }
 .faq-lista dt::before {
   content: "";
@@ -237,6 +239,7 @@ img {
   color: #5e5e5e;
   text-align: center;
   transition: all 0.2s;
+  user-select: none;
 }
 
 .bn3:hover {
