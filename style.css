@@ -4,6 +4,12 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.no-select {
+  -webkit-user-select: none; 
+  -moz-user-select: none;    
+  -ms-user-select: none;     
+  user-select: none;        
+}
 html {
   scroll-behavior: smooth;
 }
@@ -26,8 +32,6 @@ img {
   display: block;
   max-width: 100%;
   cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
 }
 /* menu lateral ---------------- */
 /* .buttonMenu-lateral {
