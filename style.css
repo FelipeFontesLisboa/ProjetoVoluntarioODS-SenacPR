@@ -27,6 +27,7 @@ img {
   max-width: 100%;
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
 }
 /* menu lateral ---------------- */
 /* .buttonMenu-lateral {
@@ -104,6 +105,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .menu li a {
   display: block;
