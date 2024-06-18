@@ -17,17 +17,20 @@ html {
 /* html.ativo{
     font-size: 150%;/
     } */
-/* body.ativo{
-        background-color: rgb(34, 34, 34);
-        color: #ffffff;
-       
-    } */
-body {
-  background-color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  display: grid;
-  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
-}
+    body {
+      background-color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      display: grid;
+      grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    }
+    body.ativo {
+      background-color: rgb(34, 34, 34);
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      display: grid;
+      grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    }
+        
 
 img {
   display: block;
@@ -324,7 +327,7 @@ img {
   display: flex;
   grid-column: 3 / 5;
   margin-bottom: 2rem;
-  background: rgba(253, 191, 99, 0.932);
+  background:rgb(250, 197, 118);
   box-shadow: 1px 1px 4px rgba(160, 160, 160, 0.39);
   justify-content: space-between;
   align-items: center;
