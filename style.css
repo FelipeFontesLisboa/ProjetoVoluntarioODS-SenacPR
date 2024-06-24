@@ -23,19 +23,29 @@ html {
       display: grid;
       grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
     }
-    body.ativo {
-      background-color: rgb(34, 34, 34);
+    body.dark-mode{
+      background-color: #000;
       color: #ffffff;
       -webkit-font-smoothing: antialiased;
       display: grid;
       grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
     }
-        
 
+    .acessibilidade {
+      padding: 3px;
+      margin: 3px;
+      background-color: transparent;
+      border: none;
+      box-sizing: border-box;
+      text-decoration: none;
+      text-align: center;
+      user-select: none;
+      cursor: pointer;
+    }
+      
 img {
   display: block;
   max-width: 100%;
-  cursor: pointer;
 }
 /* menu lateral ---------------- */
 /* .buttonMenu-lateral {
@@ -119,7 +129,6 @@ img {
 .menu li a {
   display: block;
   padding: 17px;
-
   color: #222;
   text-decoration: none;
   font-family: monospace;
@@ -127,9 +136,9 @@ img {
   padding: 10px;
 }
 .menu img {
-  margin-right: 20px;
-  width: 40px;
-  height: 40px;
+  margin-right: 12px;
+  width: 35px;
+  height: 35px;
 }
 
 .menu li:last-of-type {
