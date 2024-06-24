@@ -369,7 +369,8 @@ img {
     /* align-items: center; */
     grid-template-columns: 1fr;
   }
-button.acessibilidade{
+
+button.acessibilidade {
   display: none;
 }
   .menu {
