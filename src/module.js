@@ -70,9 +70,9 @@ export  function initAnimationScrrol() {
     }
   }
   initAnimationScrrol(); 
+
+  
   //scrol suave link internos -----------------------------------------------------
-
-
 export  function initScrollSuave() {
     const linksInternos = document.querySelectorAll('.js-meu a[href^="#"]');
   
