@@ -319,9 +319,7 @@ img {
   line-height: 0.5;
   padding: 15px 30px 15px 30px;
 }
-.infoAlunos li {
-  border-bottom: 1px solid rgba(100, 100, 100, 0.603);
-}
+
 .infoAlunos h2 {
   font-size: 1.5rem;
   text-align: center;
@@ -337,7 +335,6 @@ img {
   place-items: center;
   justify-content: center;
   animation: show 0.1s;
-  cursor: pointer;
 }
 .modal.ativa {
   display: grid;
