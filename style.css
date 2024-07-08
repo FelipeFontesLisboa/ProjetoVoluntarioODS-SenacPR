@@ -59,6 +59,7 @@ html {
 img {
   display: block;
   max-width: 100%;
+  cursor: pointer;
 }
 /* menu lateral ---------------- */
 /* .buttonMenu-lateral {
