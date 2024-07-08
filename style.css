@@ -290,7 +290,7 @@ img {
   border-left: 1px solid rgba(158, 158, 158, 0.603);
 }
 .dados li {
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -312,12 +312,14 @@ img {
   background: rgba(30, 136, 27, 0.486);
 }
 .infoAlunos {
+  background-attachment: scroll;
   background: rgb(255, 255, 255);
   color: #202020ee;
   padding: 20px;
   border-radius: 8px;
   line-height: 0.5;
   padding: 15px 30px 15px 30px;
+  box-sizing: border-box;
 }
 
 .infoAlunos h2 {
@@ -335,6 +337,10 @@ img {
   place-items: center;
   justify-content: center;
   animation: show 0.1s;
+  box-sizing: border-box;
+}
+.modal li strong {
+  font-size: .9rem;
 }
 .modal.ativa {
   display: grid;
@@ -435,10 +441,10 @@ img {
       line-height: 0%;
       padding: 0px;
       margin: 0 0 5px 0;
-    font-size: 11px;
+    font-size: .7rem;
   }
-  .infoAlunos strong {
-    font-size: 8px;
+  .infoAlunos li strong{
+    font-size: .5rem;
   }
   .infoAlunos h2 {
     line-height: 0.9;
