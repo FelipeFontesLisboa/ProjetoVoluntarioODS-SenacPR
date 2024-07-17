@@ -61,66 +61,6 @@ img {
   max-width: 100%;
   cursor: pointer;
 }
-/* menu lateral ---------------- */
-/* .buttonMenu-lateral {
-    display: block;
-    position: fixed;
-    display: none;
-    top: 0;
-    right: 0;
-    width: 60px;
-    height: 60px;
-    background-color: transparent;
-    color: whitesmoke;
-    border: none;
-    z-index: +2;
-    cursor: pointer;
-    margin: 20px 20px 0px 0px;
-  }
-  .buttonMenu-lateral.ativo{
-    display: block;
-  }
-
-  .buttonRemoveMenu{
-    display: block;
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    height: 100%;
-    top: -0%;
-    right: -100%;
-    position: fixed;
-    z-index: +1;
-  }
-
- .buttonRemoveMenu.ativo{
-  right: 0%;
- }
-
-  .menu-lateral.ativo{
-    right: -1%;
-    
-  }
-  .menu-lateral{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    position: fixed;
-    z-index:1;
-    top: -1%;
-    right:-60%;
-    background: rgba(0, 0, 0, 0.795);
-    border: 1px solid rgba(255, 255, 255, 0.884);
-    border-radius: 0px 0px 0px 15px;
-    width: 60%;
-    height:80%;
-    transition: 1s;
-    animation-duration: 5s;
-    box-shadow: 1px 5px 10px 2px  rgba(255, 255, 255, 0.116);
-  } */
-
-/* ------------------------------ */
 
 .menu {
   height: 5rem;
@@ -468,17 +408,6 @@ img {
 
   }
   
- /* menu lateral  */
-/* .buttonMenu-lateral {
-display: none;
-}
-.menu-lateral {
- display: none;
-}
-.buttonRemoveMenu{
-  display: none;
-}  */
-
 
 /* SHOW */
 @keyframes show {
